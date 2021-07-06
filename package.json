@@ -1,0 +1,18 @@
+{
+  "name": "svelte-esbuild-template",
+  "version": "1.0.0",
+  "description": "A starter kit to build Svelte apps with esbuild",
+  "repository": "https://github.com/Tazeg/svelte-esbuild-template",
+  "author": "@JeffProd",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node esbuild.js dev",
+    "build": "node esbuild.js prod"
+  },
+  "devDependencies": {
+    "esbuild": "^0.12.15",
+    "esbuild-svelte": "^0.5.3",
+    "live-server": "^1.2.1",
+    "svelte": "^3.38.3"
+  }
+}
