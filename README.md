@@ -1,6 +1,6 @@
 # Svelte-esbuild template
 
-A starter kit to build Svelte apps with [esbuild](https://esbuild.github.io/).
+A starter kit to build [Svelte](https://svelte.dev/) apps with [esbuild](https://esbuild.github.io/).
 
 ## Install
 
