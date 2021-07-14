@@ -59,6 +59,7 @@ if (!production) {
 }
 
 // esbuild dev + prod
-esbuild.build(options).catch(() => {
+esbuild.build(options).catch((err) => {
+  console.error(err)
   process.exit(1)
 })
